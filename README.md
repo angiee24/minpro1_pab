@@ -9,7 +9,7 @@ Aplikasi ini dibuat menggunakan konsep StatefulWidget dan state management dasar
 Aplikasi memiliki dua halaman utama:
 1. HomePage (Halaman utama untuk menampilkan daftar produk)
 2. FormProductPage (Halaman untuk menambah dan mengedit produk)
----
+
 ## Fitur Aplikasi
 - ✅ Create (Tambah Data Produk)
 - ✅ Read (Menampilkan Daftar Produk)
@@ -21,7 +21,7 @@ Setiap produk memiliki 3 input utama:
 - Nama Produk
 - Harga Produk
 - Jumlah Stok
----
+
 ## Widget yang Digunakan
 Berikut widget yang digunakan dalam aplikasi:
 - MaterialApp
@@ -39,18 +39,24 @@ Berikut widget yang digunakan dalam aplikasi:
 - IconButton
 - Navigator
 - SnackBar
----
+
 ## Platform dan Tools yang Digunakan
 - Flutter
 - Dart
 - Material Design
 - Visual Studio Code
----
+
 ## 📂 Struktur File
 
 <img width="240" height="109" alt="image" src="https://github.com/user-attachments/assets/44ce413d-7797-40c1-9fa9-b662fb23d476" />
 
-Struktur proyek ini berada di dalam folder lib yang berisi tiga file utama, yaitu main.dart, home_page.dart, dan form_product_page.dart. File main.dart berfungsi sebagai titik awal aplikasi dan menjalankan MaterialApp. File home_page.dart merupakan halaman utama yang menampilkan daftar produk serta mengelola proses tambah, edit, dan hapus data menggunakan setState(). Sedangkan form_product_page.dart digunakan sebagai halaman form untuk menambahkan dan mengedit produk dengan tiga input utama, yaitu nama, harga, dan stok. Struktur ini sederhana dan sudah mendukung navigasi antar halaman (multi page).
+Struktur proyek ini ada di dalam folder lib yang berisi tiga file utama, yaitu main.dart, home_page.dart, dan form_product_page.dart.
+1. File main.dart
+Berfungsi sebagai file utama untuk menjalankan aplikasi dan menampilkan halaman pertama melalui MaterialApp.
+2. File home_page.dart
+Berisi halaman utama yang menampilkan daftar produk. Di file ini juga terdapat proses untuk menambah, mengedit, dan menghapus data menggunakan setState().
+3. File form_product_page.dart
+Digunakan sebagai halaman form untuk menambahkan dan mengedit produk, dengan tiga input utama yaitu nama produk, harga, dan jumlah stok. Struktur ini sederhana dan sudah mendukung navigasi antar halaman (multi page).
 
 ## Output
 
